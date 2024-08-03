@@ -41,7 +41,8 @@ app.config["SECRET_KEY"] = "your secret key"
 visitor_count = 0
 
 # Configure logging
-logging.basicConfig(level=logging.DEBUG)
+#logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
 logger = logging.getLogger(__name__)
 
 
