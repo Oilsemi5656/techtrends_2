@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Oilsemi5656/techtrends_2
     targetRevision: HEAD
-    path: ../helm
+    path: helm
     helm:
       valueFiles:
       - values-prod.yaml
