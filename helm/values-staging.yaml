@@ -4,7 +4,7 @@ service:
   port: 5111
 
 image:
-  repository: Oilsemi5656/techtrends_2
+  repository: oilsemi0606/techtrends
   tag: latest
   pullPolicy: Always
 
