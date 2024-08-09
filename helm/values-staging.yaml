@@ -3,11 +3,6 @@ namespace: staging
 service:
   port: 5111
 
-image:
-  repository: oilsemi0606/techtrends
-  tag: latest
-  pullPolicy: Always
-
 replicaCount: 3
 
 resources:
