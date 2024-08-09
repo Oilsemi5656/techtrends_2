@@ -6,14 +6,14 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Oilsemi5656/techtrends_2
+    repoURL: "https://github.com/Oilsemi5656/techtrends_2"
     targetRevision: HEAD
     path: helm
     helm:
       valueFiles:
       - values-prod.yaml
   destination:
-    server: https://kubernetes.default.svc
+    server: "https://kubernetes.default.svc"
     namespace: prod
   syncPolicy:
     automated:
